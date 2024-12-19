@@ -24,6 +24,18 @@
         <property name="template" ref="temp"/>
     </bean>
 
+    <bean id="ue" class="com.joc.UpdateEmployeeDAO">
+        <property name="template" ref="temp"/>
+    </bean>
+
+    <bean id="uee" class="com.joc.DeleteEmployeeDAO">
+        <property name="template" ref="temp"/>
+    </bean>
+
+    <bean id="fe" class="com.joc.FetchEmployeeDAO">
+        <property name="template" ref="temp"/>
+    </bean>
+
 
 
 </beans>
